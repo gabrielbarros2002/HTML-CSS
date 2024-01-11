@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quasi alias pariatur rem inventore accusamus quo, dolor sit sequi reprehenderit deleniti. Dolorem ea iure similique aliquam aperiam nam consequuntur et.</p>
+
+    <ul>
+        <li><a href="paginas-extras/contatos.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/cordel.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/tabela006.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad temporibus minus minima ipsa repudiandae a, doloremque odio incidunt necessitatibus, nobis eos. Distinctio beatae corrupti enim nesciunt ducimus totam, repellat fuga. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, dolor! Quas omnis qui eveniet temporibus incidunt consequatur nemo inventore. Corporis, ratione maiores eligendi quidem perspiciatis qui mollitia ipsum. Repellat, officia!</p>
+
+    <iframe id="tela" name="frame" frameborder="0" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad temporibus minus minima ipsa repudiandae a, doloremque odio incidunt necessitatibus, nobis eos. Distinctio beatae corrupti enim nesciunt ducimus totam, repellat fuga.</p>">
+        Infelizmente seu navegador não é compatível com isso.
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident minima, recusandae officiis odit qui veniam vel architecto vero debitis eum doloremque, omnis aut magni amet laudantium nihil eveniet quasi deleniti.</p>
+</body>
+</html>
