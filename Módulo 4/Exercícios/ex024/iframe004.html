@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quam temporibus non doloremque optio asperiores quasi impedit debitis quibusdam, iste quos numquam fugiat quisquam aliquam sed, reprehenderit ducimus aliquid? Reiciendis!</p>
+
+    <!-- Configuração de Segurança Máxima --> 
+    <iframe src="paginas-extras/formulario.html" sandbox="sandbox"  referrerpolicy="no-referrer">
+        Seu navegador não é compatível com isso
+    </iframe>
+    
+    <!-- Configuração para Permitir Origens Internas, Formulários e Scripts -->
+    <iframe src="paginas-extras/formulario.html" sandbox="allow-same-origin allow-forms allow allow-scripts"  referrerpolicy="no-referrer">
+        Seu navegador não é compatível com isso
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus repudiandae reprehenderit culpa vitae sapiente corrupti nemo tempore ipsa, impedit odit dolores voluptas. Qui similique, libero possimus ducimus doloremque magni sequi?</p>
+</body>
+</html>
